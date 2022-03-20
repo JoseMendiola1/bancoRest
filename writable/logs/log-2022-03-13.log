@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-13 18:36:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\bancoRest\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\bancoRest\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\bancoRest\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\bancoRest\spark(45): require('C:\\bancoRest\\sy...')
+#4 {main}
+CRITICAL - 2022-03-13 16:22:48 --> syntax error, unexpected token "if"
+#0 C:\bancoRest\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\bancoRest\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\bancoRest\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
